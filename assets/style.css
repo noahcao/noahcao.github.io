@@ -1,0 +1,12 @@
+aside {
+  font-size: 14px;
+}
+
+aside h5 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+aside ul li {
+  margin-bottom: 0.5rem;
+}

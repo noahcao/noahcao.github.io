@@ -1,0 +1,578 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Jinkun Cao</title>
+    <link rel="shortcut icon" type="image/x-icon" href="static/cmu.png">
+
+  <link href="./default.css" rel="stylesheet" type="text/css">
+  <meta property="og:type" content="website">
+  <style type="text/css">
+  </style>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1077.0" data-gr-ext-installed="">
+  <div id="header">
+    <div id="logo">
+
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light" id="Home">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html" style="margin-left: 20px;">Jinkun Cao (曹金坤)</a>
+
+                <div class="collapse navbar-collapse" id="navbarToggle">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html" style="color:black;text-decoration: underline;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./misc.html">Misc</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                          <a class="nav-link" href="./blog.html">Blog</a>
+                      </li> -->
+                    </ul>
+                </div>
+            </div>
+	    </nav>
+
+
+    <div id="content">  
+        <br><br>
+
+        <div style="width:1050px; height:200px">
+            <div id="photoblock" style="width:200px;float: left; margin-left: 20px;">
+                <img style="margin-right:20px;" src="static/profile_close_erhai.jpeg" id ="photo">
+            </div>
+
+            <div style="width:700px;margin-left:250px">
+                <p> I am a Research Scientist at Meta Superintelligence Lab, MSL (previously at FAIR). </p>
+                <p>I was a Robotics PhD student at CMU with <a href="http://www.cs.cmu.edu/~kkitani/">Kris Kitani</a>. I received bachelor degree from Shanghai Jiao Tong University advised by
+                <a href="http://mvig.org/">Cewu Lu</a>. I visited UC Berkeley in 2019, advised by
+                <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a>. I also visited <a href="https://yang-gao.weebly.com/">Yang Gao</a>'s group at Tsinghua University in 2020. 
+                 I have interned in Nvidia Research, Adobe Research, Meta Reality Labs, Tencent and Bytedance AI Lab etc. 
+                 My research was supported by <a href="https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/">Meta PhD Fellowship</a>.</p> 
+                <p> 
+                    <a href="https://github.com/noahcao">Github</a> | 
+                    <a href="https://scholar.google.com/citations?user=xDtTbmQAAAAJ&hl=zh-CN">Google Scholar</a> | 
+                    <a href="https://www.linkedin.com/in/jinkun-cao-09470b105/">Linkedin</a> | 
+                    <a href="https://dblp.org/pid/224/0126.html">DBLP</a> | 
+                    <a href="static/CV.pdf">Resume</a> (usually out-dated) 
+                    <br> 
+                    Email: jinkuncao [AT] gmail.com / jinkunc [AT] andrew.cmu.edu</p>
+            </div>
+        </div>
+        <br>
+        <h2>Research Interest</h2>
+        <hr style="margin-top:0">
+        I focus on studying the real2sim and sim2real problems to model and imitate human body and hand motions, especially in interaction scenarios.
+        <ul style="padding-left:2rem;width:1000px">
+            <li>Estimation and generation of human hand pose and motion from noisy visual input.
+             </li>
+            <li>
+              Combining physics-based simulations and vision for more plausible human hand interaction imitation.
+            </li>
+            <li>
+              Applications in AR/VR, animation and robotic tasks to replicate 3D and physical interactions.
+            </li>
+        </ul>
+
+        <h2>News</h2>
+        <hr style="margin-top:0">
+        <ul style="padding-left:2rem;width:1000px">
+            <li>[2025/12]: I am attending NeurIPS at San Diego between Dec 1 - 5. I will be giving lightning talks about <a href="https://ai.meta.com/sam3d/">SAM3D Body</a> at Meta Booth on Dec 3 and Dec 4.</li>
+           <li>[2025/11]: <a href="https://ai.meta.com/sam3d/">SAM3D Body</a> is released as a part of SAM3D and together with <a href="https://ai.meta.com/sam3/">SAM3</a>! I was part of the SAM3D Body team and led the development of hand pose estimation and joint model training. Give it a try at our <a href="https://www.aidemos.meta.com/segment-anything/editor/convert-body-to-3d">Playground</a>! Code and models are open-source on <a href="https://github.com/facebookresearch/sam-3d-body">Github</a> and <a href="https://huggingface.co/collections/facebook/sam-3d-body">Hugging Face</a>.</li>
+            <li>[2025/10]: GENMO was accepted at ICCV as a Highlight and I would be at ICCV, Honolulu to present.</li>
+           <li>[2025/7]: I passed my PhD thesis defense on "Estimating and Generating Human Motions from Interactions". Thesis is <a href='https://www.ri.cmu.edu/publications/estimating-and-generating-human-motions-from-interactions/'>here</a>. </li>
+           <div class="divider" onclick="toggleOlder()">—— See Older News ——</div>
+           <div id="older-news" style="display: none;">
+           <li>[2024/9]: Three papers accepted to NeurIPS 2024 and one paper accepted to NeurIPS DB Track 2024. See you in Vancouver! (Hopefully I could get a visa) </li>
+            <li>[2024/3]: Concluded my tracking research in <a href="https://www.ri.cmu.edu/publications/improving-kalman-filter-based-multi-object-tracking-in-occlusion-and-non-linear-motion/"
+              >a thesis</a>. My recent research is more about the generation of human shape, motion and behavior.</li>
+	          <li>[2024/2]: <a href="https://arxiv.org/abs/2403.06862">SimXR</a> for pose estimation and simulation from head-mounted cameras is accepted by CVPR 2024. Congrats to Zen!
+            <li>[2024/2]: <a href="https://arxiv.org/abs/2402.15895">CSC-Tracker</a> for multi-object tracking is accepted by ICRA 2024. Stay tuned for more details! </li>
+            <li>[2024/1]: Two papers are accepted by ICLR as Spotlights. Check <a href="https://xizaoqu.github.io/unihsi/">UniHSI</a> and <a href="https://www.zhengyiluo.com/PULSE/">PULSE</a> for details!</li>
+            <li>[2023/7]: One paper about humanoid control is accpeted to ICCV. Congrats, Zen! Looking forward to the trip to Paris.</li>
+            <li>[2023/4]: Awarded <a href="https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/">Meta PhD Research Fellowship</a> since 2023. Thank you Meta!</li>
+            <li>[2023/2]: Deep OC-SORT is available on <a href="https://arxiv.org/abs/2302.11813">arxiv</a> and <a href="https://github.com/GerardMaggiolino/Deep-OC-SORT/">Github</a>, ranking 1st on MOT17, MOT20 and DanceTrack among published papers.</li>
+            <li>[2023/2]: Two papers are accepted to CVPR 2023 (including OC-SORT). See you at Vancouver.</li>
+            <li>[2022/9]: A paper is accepted to BMVC'2022 for multi-object tracking. The paper is coming to the public soon.</li>
+            <li>[2022/9]: <a href="https://arxiv.org/abs/2206.04756">MED paper</a> is accepted by NeurIPS'2022. We study the disentanglement property of high-dimensional representation models 
+              and introduce contrastive learning methods into disentanglement benchmarks. Stay tuned for a heavily revised veresion of paper.
+            </li>
+            <li>[2022/8]: OC-SORT is supported by <a href="https://github.com/open-mmlab/mmtracking">mmtracking</a> now. Try it for more flexible and advanced features!</li>
+            <li>[2022/3]: The  <a href="https://github.com/noahcao/OC_SORT">code</a> of <a href="https://arxiv.org/abs/2203.14360">OC-SORT</a> 
+              is released. It achieves SOTA performance on multiple MOT datasets in a pure motion-based fashion.</li>
+            <li>[2022/3]: We are organizing <a href="https://motcomplex.github.io">"Multiple Object Tracking in Complex Environments Workshop”</a> in ECCV'2022, Tel Aviv, Israel.</li>
+            <li>[2022/2]: <a href="https://sites.google.com/view/dancetrackmot">DanceTrack</a> is accepted in CVPR'2022. 
+              We propose a challenging multi-object tracking dataset.</li>
+              </div> 
+          </ul>
+
+
+
+
+        <h2>Selected Publications</h2>
+        <hr style="margin-top:0;margin-bottom: 0;">
+        * indicates equal contribution | 
+        I am a main contributor of the <a style='background-color:#FeFFE0'>highlighted projects</a>.
+        <br><br>
+
+        <div class="itembox">
+            <div class="row">
+              <div class="teaser">
+                <img src="static/contact4d.gif" style="width:100%">
+              </div>
+              <div class="introbox">
+                <p class="title"><b>Contact4D: A Video Dataset for Whole-body Human Motion and Finger Contact in Dexterous Operations</b></p>
+                <p class="authorlist"><i> Jyun-Ting Song, Jungeun Kim, <b>Jinkun Cao</b>, Yu Lei, Takuma Yagi, Kris Kitani</i></p>
+                <p class="source">3DV 2026 <a href="https://jyuntins.github.io/data/Contact4D.pdf">[paper]</a> </p>
+              </div>
+            </div>
+          </div> 
+        
+        <div class="itembox">
+            <div class="row">
+              <div class="teaser">
+                <img src="static/mgd_grasp.png" style="width:100%">
+              </div>
+              <div class="myproject">
+                <p class="title"><b>Joint Diffusion for Universal Hand-Object Grasp Generation</b></p>
+                <p class="authorlist"><i> <b>Jinkun Cao</b>, Jingyuan Liu, Kris Kitani, Yi Zhou</i></p>
+                <p class="source">TMLR 2025 <a href="https://openreview.net/forum?id=TZ0ztsYR6x">[openreview]</a> </p>
+              </div>
+            </div>
+          </div> 
+
+        <div class="itembox">
+          <div class="row">
+            <div class="teaser">
+              <img src="static/genmo_vtv.gif" style="width:100%">
+            </div>
+            <div class="myproject">
+              <p class="title"><b>GENMO: A GENarlist Model for Human MOtion</b></p>
+              <p class="authorlist"><i> Jiefeng Li, <b>Jinkun Cao</b>, Haotian Zhang, Davis Rampe, Jan Kautz, Umar Iqbal, and Ye Yuan</i></p>
+              <p class="source">ICCV 2025 [Highlight]<a href="https://research.nvidia.com/labs/dair/genmo/">[project]</a> </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="itembox">
+          <div class="row">
+            <div class="teaser">
+              <img src="static/omnigrasp.gif" style="width:100%">
+            </div>
+            <div class="myproject">
+              <p class="title"><b>Grasping Diverse Objects with Simulated Humanoids</b></p>
+              <p class="authorlist"><i> Zhengyi Luo*, <b>Jinkun Cao*</b>, Sammy Christen, Alexander Winkler, Kris Kitani, Weipeng Xu</i></p>
+              <p class="source">NeurIPS 2024 <a href="https://zhengyiluo.github.io/Omnigrasp">[project]</a> </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="itembox">
+          <div class="row">
+            <div class="teaser">
+              <img src="static/mgd_pred.png" style="width:100%">
+            </div>
+            <div class="myproject">
+              <p class="title"><b>Mixed Gaussian Flow for Diverse Trajectory Prediction</b></p>
+              <p class="authorlist"><i>Jiahe Chen*, <b>Jinkun Cao*</b>, Kris Kitani, Jiangmiao Pang</i></p>
+              <p class="source">NeurIPS 2024 <a href="https://arxiv.org/abs/2402.12238">[arxiv]</a> </p>
+            </div>
+          </div>
+        </div> 
+      
+
+	<!--
+        <div class="itembox">
+          <div class="row">
+            <div class="teaser">
+              <img src="static/coolhoi.png" style="width:100%">
+            </div>
+            <div class="introbox">
+              <p class="title"><b>CooHOI: Learning Cooperative Human-Object Interaction with Manipulated Object Dynamics</b></p>
+              <p class="authorlist"><i>Jiawei Gao, Ziqin Wang, Zeqi Xiao, Jingbo Wang, Tai Wang, <b>Jinkun Cao</b>, Xiaolin Hu, Si Liu, Jifeng Dai, Jiangmiao Pang</i></p>
+              <p class="source">NeurIPS 2024 (spotlight) <a href="https://gao-jiawei.com/Research/CooHOI/">[project]</a> </p>
+            </div>
+          </div>
+        </div>
+	--> 
+
+        <div class="itembox">
+          <div class="row">
+            <div class="teaser">
+              <img src="static/harmony4d.png" style="width:100%">
+            </div>
+            <div class="introbox">
+              <p class="title"><b>Harmony4D: A Video Dataset for In-The-Wild Close Human Interactions</b></p>
+              <p class="authorlist"><i>Rawal Khirodkar*, Jyun-Ting Song*, <b>Jinkun Cao</b>, Zhengyi Luo, Kris Kitani</i></p>
+              <p class="source">NeurIPS 2024 (Dataset and Benchmark Track) <a href="https://jyuntins.github.io/harmony4d/">[project]</a> </p>
+            </div>
+          </div>
+        </div> 
+
+        <div class="itembox">
+          <div class="row">
+            <div class="teaser">
+              <img src="static/simxr.gif" style="width:100%">
+            </div>
+            <div class="introbox">
+              <p class="title"><b>Real-Time Simulated Avatar from Head-Mounted Sensors</b></p>
+              <p class="authorlist"><i>Zhengyi Luo, <b>Jinkun Cao</b>, Rawal Khirodkar, Alexander Winkler, Jing Huang, Kris Kitani, Weipeng Xu</i></p>
+              <p class="source">CVPR 2024 <a href="https://arxiv.org/abs/2403.06862">[arxiv]</a> <a href="https://www.zhengyiluo.com/SimXR">[project]</a>  </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="itembox">
+          <div class="row">
+            <div class="teaser">
+              <img src="static/csc_tracker.gif" style="width:100%">
+            </div>
+            <div class="myproject">
+              <p class="title"><b>Multi-Object Tracking by Hierarchical Visual Representations</b></p>
+              <p class="authorlist"><i> <b>Jinkun Cao</b>, Jiangmiao Pang, Kris Kitani</i></p>
+              <p class="source">ICRA 2024 <a href="https://arxiv.org/abs/2402.15895">[arxiv]</a> </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="itembox">
+          <div class="row">
+            <div class="teaser">
+              <img src="static/pulse.gif" style="width:100%">
+            </div>
+            <div class="introbox">
+              <p class="title"><b>Universal Humanoid Motion Representations for Physics-Based Control</b></p>
+              <p class="authorlist"><i>Zhengyi Luo, <b>Jinkun Cao</b>, Josh Merel, Alexander Winkler, Jing Huang, Kris Kitani, Weipeng Xu</i></p>
+              <p class="source">ICLR 2024 (Spotlight) <a href="https://arxiv.org/abs/2310.04582v1">[arxiv]</a> <a href="https://www.zhengyiluo.com/PULSE/">[project]</a>  </p>
+            </div>
+          </div>
+        </div>
+
+	<!--
+        <div class="itembox">
+          <div class="row">
+            <div class="teaser">
+              <img src="static/unihsi.gif" style="width:100%">
+            </div>
+            <div class="myproject">
+              <p class="title"><b>Unified Human-Scene Interaction via Prompted Chain-of-Contacts</b></p>
+              <p class="authorlist"><i>Zeqi Xiao, Tai Wang, Jingbo Wang, <b>Jinkun Cao</b>,  Wenwei Zhang, Bo Dai, Dahua Lin, Jiangmiao Pang</i></p>
+              <p class="source">ICLR 2024 (Spotlight) <a href="https://arxiv.org/abs/2309.07918">[arxiv]</a> <a href="https://xizaoqu.github.io/unihsi/">[project]</a>  </p>
+            </div>
+          </div>
+        </div>
+	-->
+
+        <!-- <div class="itembox">
+          <div class="row">
+            <div class="teaser">
+              <img src="static/deep-oc-ocsort.png" style="width:100%">
+            </div>
+            <div class="introbox">
+              <p class="title"><b>Deep OC-SORT: Multi-Pedestrian Tracking by Adaptive Re-Identification</b></p>
+              <p class="authorlist"><i>Gerard Maggiolino*, Adnan Ahmad*, <b>Jinkun Cao</b>, Kris Kitani</i></p>
+              Ranks 1st on DanceTrack, MOT-17 and MOT-20 benchmarks (w.r.t HOTA scores) among published methods.
+              <p class="source">ICIP 2023 <a href="https://arxiv.org/abs/2302.11813">[arxiv]</a>  <a href="https://github.com/GerardMaggiolino/Deep-OC-SORT/">[code]</a> </p>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="itembox">
+          <div class="row">
+            <div class="teaser">
+              <img src="static/phc.gif" style="width:100%">
+            </div>
+            <div class="introbox">
+              <p class="title"><b>Perpetual Humanoid Control for Real-time Simulated Avatars</b></p>
+              <p class="authorlist"><i>Zhengyi Luo, <b>Jinkun Cao</b>, Alexander Winkler, Kris Kitani, Weipeng Xu</i></p>
+              <p class="source">ICCV 2023 <a href="https://zhengyiluo.github.io/PHC/">[project page]</a>
+                 <a href="https://arxiv.org/abs/2305.06456">[arxiv]</a> <a href="https://github.com/ZhengyiLuo/PerpetualHumanoidControl">[code]</a></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="itembox">
+          <div class="row">
+            <div class="teaser">
+              <img src="static/ocsort.gif" style="width:100%">
+            </div>
+            <div class="myproject">
+              <p class="title"><b>Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking</b></p>
+              <p class="authorlist"><i><b>Jinkun Cao</b>, Jiangmiao Pang, Xinshuo Weng, Rawal Khirodkar, Kris Kitani</i></p>
+              <p class="source">CVPR 2023 <a href="https://arxiv.org/abs/2203.14360">[arxiv]</a>  
+                <a href="https://github.com/noahcao/OC_SORT">[code]</a> 
+              <a href="https://github.com/open-mmlab/mmtracking">[mmtracking]</a></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="itembox">
+          <div class="row">
+            <div class="teaser">
+              <img src="static/dst.png" style="width:100%">
+            </div>
+            <div class="myproject">
+              <p class="title"><b>Track Targets by Dense Spatio-Temporal Position Encoding</b></p>
+              <p class="authorlist"><i><b>Jinkun Cao</b>, Hao Wu, Kris Kitani</i></p>
+              <p class="source">BMVC 2022 [Oral]  <a href="https://arxiv.org/abs/2210.09455">[arxiv]</a> </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="itembox">
+            <div class="row">
+              <div class="teaser">
+                <img src="static/med3.png" style="width:100%">
+              </div>
+              <div class="myproject">
+                <p class="title"><b>An Empirical Study on Disentanglement of Negative-free Contrastive Learning</b></p>
+                <p class="authorlist"><i><b>Jinkun Cao</b>, Ruiqian Nai, Qing Yang, Jialei Huang, Yang Gao</i></p>
+                <p class="source">NeurIPS 2022  <a href="https://arxiv.org/abs/2206.04756">[arxiv]</a>  <a href="https://github.com/noahcao/disentanglement_lib_med">[code]</a> 
+                </p>
+              </div>
+            </div>
+          </div>
+
+        <div class="itembox">
+            <div class="row">
+              <div class="teaser">
+                <img src="static/dancetrack.gif" style="width:100%">
+              </div>
+              <div class="myproject">
+                <p class="title"><b>DanceTrack: Multi-Object Tracking in Uniform Appearance and Diverse Motion</b></p>
+                <p class="authorlist"><i>Peize Sun*, <b>Jinkun Cao*</b>, Yi Jiang, Zehuan Yuan, Song Bai, Kris Kitani, Ping Luo</i></p>
+                <p class="source">CVPR 2022  <a href="https://arxiv.org/abs/2111.14690">[arxiv]</a>  <a href="https://github.com/DanceTrack/DanceTrack">[code]</a> 
+                <a href="https://sites.google.com/view/dancetrackmot">[project page]</a> <a href="https://competitions.codalab.org/competitions/35786">[codalab]</a></p>
+              </div>
+            </div>
+          </div>
+  
+         <div class="itembox">
+            <div class="row">
+              <div class="teaser">
+                <img src="static/ipc.gif" style="width:100%">
+              </div>
+              <div class="myproject">
+                <p class="title"><b>Instance-aware predictive navigation in multi-agent environments</b></p>
+                <p class="authorlist"><i><b>Jinkun Cao</b>, Xin Wang, Trevor Darrell, Fisher Yu</i></p>
+                <p class="source">ICRA 2021  <a href="https://arxiv.org/abs/2101.05893">[arxiv]</a>  <a href="https://github.com/SysCV/spc2">[code]</a> </p>
+              </div>
+            </div>
+          </div>
+  
+       <!-- <div class="itembox">
+          <div class="row">
+            <div class="teaser">
+              <img src="static/ARnet.png" style="width:100%">
+            </div>
+            <div class="introbox">
+              <p class="title"><b>Attribute Restoration Framework for Anomaly Detection</b></p>
+              <p class="authorlist"><i>Fei Ye, Chaoqing Huang, <b>Jinkun Cao</b>, Maosen Li, Ya Zhang, Cewu Lu</i></p>
+              <p class="source">IEEE Trans on MM 2020  
+                  <a href="https://arxiv.org/abs/1911.10676">[arxiv]</a> 
+              </p>
+            </div>
+          </div>
+        </div> -->
+  
+        <div class="itembox">
+          <div class="row">
+            <div class="teaser">
+              <img src="static/animalpose.jpg" style="width:100%">
+            </div>
+            <div class="myproject">
+              <p class="title"><b>Cross-Domain Adaptation for Animal Pose Estimation</b></p>
+              <p class="authorlist"><i><b>Jinkun Cao</b>, Hongyang Tang, Hao-Shu Fang, Xiaoyong Shen, Cewu Lu, Yu-Wing Tai</i></p>
+              <p class="source">ICCV 2019 [Oral] (4.3% acceptance rate)  <a href="https://arxiv.org/abs/1908.05806">[arxiv]</a>  
+              <a href='https://sites.google.com/view/animal-pose/'>[dataset]</a></p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- <div class="itembox">
+          <div class="row">
+            <div class="teaser">
+              <img src="static/hoi.png" style="width:100%">
+            </div>
+            <div class="introbox">
+              <p class="title"><b>Pairwise Body-Part Attention for Recognizing Human-Object Interactions</b></p>
+              <p class="authorlist"><i>Hao-Shu Fang, <b>Jinkun Cao</b>, Yu-Wing Tai, Cewu Lu</i></p>
+              <p class="source">ECCV 2018  <a href="https://eccv2018.org/openaccess/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf">[paper]</a></p>
+            </div>
+          </div> -->
+
+      <h2>Projects and Manuscripts</h2>
+          <hr style="margin-top:0;margin-bottom: 0;">
+          * indicates equal contribution | I am a main contributor of the <a style='background-color:#FeFFE0'>highlighted projects</a>.
+          <br><br>
+
+          <div class="itembox">
+            <div class="row">
+              <div class="teaser">
+                <img src="static/sam3dbody.gif" style="width:100%">
+              </div>
+              <div class="introbox">
+                <p class="title"><b>SAM 3D Body: Robust Full-Body Human Mesh Recovery</b></p>
+                <p class="authorlist"><i> SAM3D Body Team at Meta</i></p>
+                <p class="source">2025 <a href="https://ai.meta.com/research/publications/sam-3d-body-robust-full-body-human-mesh-recovery/">[Tech Report]</a> <a href="https://www.aidemos.meta.com/segment-anything/editor/convert-body-to-3d">[Online Playground]</a> <a href="https://ai.meta.com/sam3d/">[Blog]</a> <a href="https://github.com/facebookresearch/sam-3d-body">[Github]</a></p>
+              </div>
+            </div>
+          </div> 
+
+          <div class="itembox">
+            <div class="row">
+              <div class="teaser">
+                <img src="static/smplolympics.gif" style="width:100%">
+              </div>
+              <div class="introbox">
+                <p class="title"><b>Humanoidlympics: Sports Environments for Physically Simulated Humanoids</b></p>
+                <p class="authorlist"><i> Zhengyi Luo*, Jiashun Wang*, Kangni Liu*, Haotian Zhang, Chen Tessler, 
+                  Jingbo Wang, Ye Yuan, <b>Jinkun Cao</b>, Zihui Lin, Fengyi Wang, Jessica Hodgins, Kris Kitani</i></p>
+                <p class="source">Technical Report, 2024 <a href="https://smplolympics.github.io/SMPLOlympics">[project]</a> </p>
+              </div>
+            </div>
+          </div> 
+
+      
+          <!-- <div class="itembox">
+            <div class="row">
+              <div class="teaser">
+                <img src="static/transtrack.jpg" style="width:100%">
+              </div>
+              <div class="introbox">
+                <p class="title"><b>TransTrack: Multiple Object Tracking with Transformer</b></p>
+                <p class="authorlist"><i>Peize Sun, <b>Jinkun Cao</b>, Yi Jiang, Rufeng Zhang, Enze Xie, Zehuan Yuan, Changhu Wang, Ping Luo</i></p>
+                <p class="source">Technical Report, 2021 <a href="https://arxiv.org/abs/2012.15460">[arxiv]</a>  <a href="https://github.com/PeizeSun/TransTrack">[code]</a> </p>
+              </div>
+            </div>
+          </div>  -->
+
+    <h2>Services</h2>
+          <hr style="margin-top:0">
+
+    <ul style="padding-left:2rem">
+        <li>Conference Reviewer: ICCV, ECCV, CVPR, ISMAR, ICRA, IROS, NeurIPS, AAAI, ICML, ICLR, Siggraph, Siggraph-Asia</li>
+        <li>Journal Reviewer: RA-L, IEEE Trans. Multimedia, TMLR, IJCV, TPAMI, TOG</li>
+        <li>Workshop Organizer:<br>
+          <ul>
+            <li><a href="https://motcomplex.github.io">"Multiple Object Tracking in Complex Environments Workshop”</a> in ECCV'2022 </li>
+          </ul>
+        </li>
+    </ul>
+
+  </div>
+
+  </div>
+
+  <hr style="margin-top:0">
+  <div class="row">
+    <div id="stamp">
+        <i style="text-decoration:underline;float:left">Pageviews:  </i> 
+        <a href="https://www.easycounter.com/" style="float:left">
+          <img src="https://www.easycounter.com/counter.php?noahcao"
+              border="0" alt="Hit Counter">
+        </a>
+    </div>
+    <div id="stamp" style="float:right;text-align: right;">
+        <p> Profile photo credit to Wen Shao.</a></p>
+        <p>Last updated: Nov 2025.</p>
+        <p>The template of this page is available on <a href="https://github.com/noahcao/Personal_Website_Template.git">Github</a>. Feel free to use it for your own page.</p>
+        <br>
+    </div>
+  </div>
+  <br>
+  <div style="clear: both;"></div>
+</body>
+
+</html>
+
+<style scoped>
+  .left-div {
+    float: left;
+    width: 210px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  .right-div {
+    margin-left: 230px;
+  }
+  .itembox{
+    margin-bottom: 20px;
+    margin-left:30px;
+    line-height: 0.5cm;
+  }
+  .teaser{
+    padding-left: 0;
+    padding-right: 0;
+    border: solid 1px lightgray;
+    width: 220px;
+    margin-right:20px;
+  }
+  .introbox{
+    padding-left: 10px;
+    padding-right: 0;
+    padding-top: 10px;
+    width: 700px;
+    margin-right:20px;
+  }
+  .divider {
+    text-align: center;
+    cursor: pointer;
+    color: gray;
+    margin: 7px 0;
+    user-select: none;
+    font-style: italic;
+  }
+  .myproject{
+    padding-left: 10px;
+    padding-right: 0;
+    padding-top: 10px;
+    width: 700px;
+    margin-right:20px;
+    background-color:#FeFFE0;
+  }
+  .authorlist{
+    font-size: 0.8rem;
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+  .title{
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .source{
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  #tracker{
+    text-align: center
+    }
+  #stamp{
+      width: 500px;
+      margin: 0px;
+      padding-left:20px
+  }
+  p {
+      margin-bottom: 5px;
+  }
+  </style>
+
+  <script>
+  function toggleOlder() {
+    const older = document.getElementById('older-news');
+    const divider = document.querySelector('.divider');
+    const isHidden = older.style.display === 'none';
+
+    older.style.display = isHidden ? 'block' : 'none';
+    divider.textContent = isHidden ? '—— Hide Older News ——' : '—— See Older News ——';
+  }
+</script>
